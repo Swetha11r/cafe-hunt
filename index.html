@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>~Cafe Finder~</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h2>Cafe Hunt</h2>
+
+<div class="controls">
+
+<input type="text" id="city" placeholder="Enter city">
+
+<button onclick="searchCity()">Search City</button>
+
+<button onclick="getLocation()">Use My Location</button>
+
+</div>
+
+<div class="container">
+
+<div id="map"></div>
+
+<div id="sidebar">
+
+<h3>Nearby Cafes</h3>
+
+<ul id="cafeList"></ul>
+
+</div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
